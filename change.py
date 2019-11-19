@@ -1,4 +1,6 @@
 """Money change counter"""
+
+
 def make_change(amount: str) -> dict:
     """Money change counter func"""
     result = {1: 0, 2: 0, 50: 0, 25: 0, 10: 0, 5: 0}
