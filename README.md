@@ -11,7 +11,7 @@ To deploy project on your local machine create new virtual environment and execu
 
 To run all style checkers and tests use commands:
 
-`pytest --cov=pool`
+`pytest`
 
 `flake8 .`
 
