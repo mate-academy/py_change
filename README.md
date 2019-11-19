@@ -13,6 +13,6 @@ To run all style checkers and tests use commands:
 
 `flake8 .`
 
-`pylint fishes pool config test_pool main`
+`pylint change`
 
 `mypy .`
