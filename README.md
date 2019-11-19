@@ -13,8 +13,8 @@ To run all style checkers and tests use commands:
 
 `pytest`
 
-`flake8 .`
+`flake8 change`
 
 `pylint change`
 
-`mypy .`
+`mypy change.py`
