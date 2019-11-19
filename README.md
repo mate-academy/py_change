@@ -18,3 +18,4 @@ To run all style checkers and tests use commands:
 `pylint change`
 
 `mypy .`
+
