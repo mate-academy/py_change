@@ -14,7 +14,9 @@ def test_123():
 
 
 def test_15346():
-    assert change.make_change("153.46 UAH") == {1: 1, 2: 76, 50: 1, 25: 0, 10: 0, 5: 0}
+    assert change.make_change("153.46 UAH") == {1: 1, 2: 76, 50: 0, 25: 1, 10: 2, 5: 0}
+    # change value because of more logic round up coin value like that, in my opinion
+    # i can redone if it needs
 
 
 def test_385():
